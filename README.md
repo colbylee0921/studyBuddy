@@ -1,1 +1,1 @@
-This is my project that I took for Cogs 3.
+This is my project that I created for Cogs 3.

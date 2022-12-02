@@ -1,185 +1,167 @@
-#title{
-    background-color: #5a65cc;
+#title {
+  background-color: #5a65cc;
 }
 
 .container-fluid {
-    padding: 3% 15%
+  padding: 3% 15%;
 }
 
-h1{
-    font-family: 'Lora', sans-serif;
-    font-weight: bold;
-    font-size: 3rem;
-    line-height:1.5;
-    color: white;
+h1 {
+  font-family: "Lora", sans-serif;
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+  color: white;
+}
+.title {
+  margin: 15% 10% 0 0;
+}
+h2 {
+  color: white;
+  font-family: "Lora";
+  font-size: 2.5rem;
+  font-weight: bold;
 }
 
-h2{
-    color: white;
-    font-family: 'Lora';
-    font-size: 2.5rem;
-    font-weight: bold;
+h3 {
+  font-family: "Lora";
+  font-weight: bold;
 }
 
-h3{
-    font-family: 'Lora';
-    font-weight: bold;
-}
-
-p{
-    color: #8f8f8f;
+p {
+  color: #8f8f8f;
 }
 
 .navbar {
-    padding: 0 0 4.5rem;
+  padding: 0 0 4.5rem;
 }
-.navbar-brand{
-    font-family: 'Lato';
-    font-size: 2.5rem;
-    font-weight: bold;
-}
-
-.navbar-item{
-    padding: 0 18px;
-}
-.navbar-link{
-    font-family:'Lora', sans-serif;
-    font-size: 1.2rem;
+.navbar-brand {
+  font-family: "Lato";
+  font-size: 2.5rem;
+  font-weight: bold;
 }
 
-.download-button{
-    margin: 5% 5% 5% 0;
+.navbar-item {
+  padding: 0 18px;
+}
+.navbar-link {
+  font-family: "Lora", sans-serif;
+  font-size: 1.2rem;
 }
 
-.title-image{
-    width: 60%;
-    transform: rotate(20deg);
-    position: absolute;
+.download-button {
+  margin: 0 0 0 0;
 }
 
-
-
-#features{
-    padding: 7% 15%;
-    background-color:#fff;
-    z-index: 1;
-    position: relative;
+.title-image {
+  width: 60%;
+  position: absolute;
 }
 
-.feature-box{
-    text-align: center;
-    padding: 5%;
+#features {
+  padding: 7% 15%;
+  background-color: #fff;
+  z-index: 1;
+  position: relative;
 }
 
-.icon{
-    color: #ef8712;
-    margin-bottom: 1rem;
+.feature-box {
+  text-align: center;
+  padding: 5%;
 }
 
-.icon:hover{
-    color:#8fdbf2;
+.icon {
+  color: #ef8712;
+  margin-bottom: 1rem;
 }
 
-
-
-
-#testimonials{
-    text-align: center;
-    background-color: #5a65cc;
-
-}
-.carousel-item{
-    padding: 7% 20%;
-}
-.testtext{
-    color: white;
+.icon:hover {
+  color: #8fdbf2;
 }
 
-.testimonial-image{
-    width: 20%;
-    border:1px solid #fff;
-    border-radius: 30%;
-    margin: 20px;
+#testimonials {
+  text-align: center;
+  background-color: #5a65cc;
+}
+.carousel-item {
+  padding: 7% 20%;
+}
+.testtext {
+  color: white;
 }
 
-#press{
-    background-color: #5a65cc;
-    text-align: center;
-
+.testimonial-image {
+  width: 20%;
+  border: 1px solid #fff;
+  border-radius: 30%;
+  margin: 20px;
 }
 
-.press-logo{
-    width: 10%;
-    margin: 20px 20px 50px;
+#press {
+  background-color: #5a65cc;
+  text-align: center;
 }
 
-
-
-
-.card-deck{
-    text-align: center;
+.press-logo {
+  width: 10%;
+  margin: 20px 20px 50px;
 }
 
+.card-deck {
+  text-align: center;
+}
 
-
-
-#pricing{
-    padding: 100px;
-    text-align: center;
+#pricing {
+  padding: 100px;
+  text-align: center;
 }
 
 .pricing-header {
-    color: #000
+  color: #000;
 }
 
-.pricing-column{
-    padding: 3% 2%;
+.pricing-column {
+  padding: 3% 2%;
 }
 
+#cta {
+  background-color: #5a65cc;
+  color: #fff;
+  text-align: center;
+  padding: 7% 15%;
+}
 
-#cta{
-    background-color: #5a65cc;
-    color: #fff;
+.cta-heading {
+  font-family: "Lora";
+  font-weight: bold;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.cta-image {
+  width: 40%;
+  height: 20;
+  border: 1px solid #000;
+  border-radius: 60%;
+  margin: 10px;
+}
+
+#footer {
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+@media (max-width: 1028px) {
+  #title {
     text-align: center;
-    padding: 7% 15%;
-
-}
-
-.cta-heading{
-    font-family: 'Lora';
-    font-weight: bold;
-    font-size: 3.5rem;
-    line-height: 1.5;
-}
-
-.cta-image{
-    width: 40%;
-    height: 20;
-    border:1px solid #000;
-    border-radius: 60%;
-    margin: 10px;
-}
-
-
-#footer{
-    padding: 7% 15%;
-    text-align: center;
-}
-
-.social-icon{
-    margin: 20px 10px;
-}
-
-
-
-@media (max-width: 1028px){
-
-    #title{
-        text-align: center;
-    }
-    .title-image{
-        position: static;
-        transform: rotate(0);
-    }
+  }
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
 }
 /* COGS3 studyBuddy specific styles go here. */
